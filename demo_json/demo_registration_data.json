@@ -1,0 +1,24 @@
+{
+	"name": "Utkarsh Sharma",
+	"email": "utkarshsharma650@gmail.com",
+	"password": "vadapav",
+	"address": "Thane",
+	"role": "patient"
+}
+
+{
+	"name": "Viraj Gawde",
+	"email": "viraj.gawde123@gmail.com",
+	"password": "bahar_ka_nahi!",
+	"address": "Raigad",
+	"role": "patient"
+}
+
+// Final for doctor
+{
+	"name": "AGBI Doctor",
+	"email": "agbi@gmail.com",
+	"password": "doctor_123",
+	"address": "Thane",
+	"role": "doctor"
+}

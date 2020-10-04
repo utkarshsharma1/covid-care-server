@@ -1,0 +1,6 @@
+flask==1.1.2
+Flask-Cors==3.0.9
+tinydb==4.1.1
+pickle-mixin
+numpy==1.18.5
+gunicorn==20.0.4
