@@ -17,21 +17,21 @@ def predict(data):
     
     pkl_filename = "./model-covid.pkl"
     
-   # with open(pkl_filename, 'rb') as file:
-    #    covid_classifier_pkl = pickle.load(file)
+    with open(pkl_filename, 'rb') as file:
+        covid_classifier_pkl = pickle.load(file)
     
     arr_symptoms = np.array(symptoms)
     arr_symptoms = arr_symptoms.reshape(-1, 7)
 
-   # prediction = covid_classifier_pkl.predict(arr_symptoms)[0]
+    prediction = covid_classifier_pkl.predict(arr_symptoms)[0]
     
    # print(prediction)
     #print(type(prediction))
 
-   # if prediction == 0:
-   #     return False
+    if prediction == 0:
+        return False
     
-   # return True
+    return True
 
     if (fever and (sb or weakness or cough) and (close_contact or pneumonia)):
         return True
